@@ -1,0 +1,95 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <title>.:IMC-Índice de Massa Corporal:.</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="link/taglink/ico/right.png" rel="shortcut icon">
+  </head>
+  <body>
+    <fieldset id="margem-body">
+
+      <legend>
+        <span>|</span><strong><span id="imcTitle">IMC - Índice de Massa Corporal</span></strong><span>|</span>
+      </legend>
+    
+      <div class="container">
+
+        <figure class="figureH1">
+          <img src="src/conteudoonline_-_marketing-digital-e-empresas-da-area-de-saude_v2.png" alt="coração">
+        </figure>
+        
+        <div class="element">
+          <p> 
+            IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+            <br>
+            <br>
+            O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+            <br>
+            <br>
+            Quer descobrir se você está abaixo, acima ou no peso ideal?
+            <br>
+            Insira dua altura e seu peso abaixo e nós calcularemos para você.
+          </p>
+          <br>
+          <div class="quadrado">
+            
+            <label for="inputPeso"><em>Insira seu peso:</em></label>
+            <input id="inputPeso" type="text" placeholder = "Peso em Kg"  maxlength="3">*
+
+            <label for="inputAltura"><em>Insira sua altura:</em></label>
+            <input id="inputAltura" type="text" placeholder = "Altura em Metros"  maxlength="4">*
+
+          </div>
+          <br>
+          <p>
+            Ok, agora me diga, selecionando abaixo, qual o seu nível de atividade física? *
+          </p>
+          
+          <ul class="atividadesFisica">
+            <li class="atividadeFisica sedentaria">
+              <input type="radio" name="radio" id="sedentaria">
+              <label for="sedentaria">Sedentária</label>
+            </li>
+            
+            <li class="atividadeFisica moderada">
+              <input type="radio" name="radio" id="moderada" checked>
+              <label for="moderada">Moderada</label>
+            </li>
+            
+            <li class="atividadeFisica intensa">
+              <input type="radio" name="radio" id="intensa">
+              <label for="intensa">Intensa</label>
+            </li>
+          </ul>
+
+          <br>
+          <br>
+          <br>
+
+          <p class="obs"><em>(Obs.: *campos obrigatórios)</em></p>
+          <br>
+          <button id= "buttonCalculate" onClick="calculateIMC()">
+            Calcular IMC
+          </button>
+          
+          <button id= "resetButton" onClick="resetIMC()">
+            Limpar
+          </button>
+
+          <hr class=linhaResultado>
+
+          <h3>Resultado:</h3>
+          <p id="paragraphResult"></p>
+
+          <p><em>OBS.: Para quaisquer que sejam os resultados obtidos o melhor sempre é consultar e ter um acompanhamento médico.</em></p>
+
+          <div class="rodape">
+            .:Developed By João Antônio de Castro:.
+          </div>
+          
+          <script src="script.js"></script>
+        </div> <!--element-->
+      </div> <!--container-->
+    </fieldset>
+  </body>
+</html>
