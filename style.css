@@ -1,7 +1,6 @@
 *{
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgray;
-
     border-radius: 10px;
 }
 .figureH1 img{
@@ -52,12 +51,10 @@ p{
     margin: 0;
     padding: 0;
 }
-  
 .atividadesFisica:after {
     content: "";
     clear: both;
 }
-  
 .atividadeFisica {
     border: 1px solid #ccc;
     box-sizing: border-box;
