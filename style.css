@@ -37,6 +37,16 @@ body{
     }
 }
 
+.box{
+    width: 96vw;
+	height: 180px;
+    background-color: #ffffff;
+    
+    box-shadow: 2px 2px 2px black;;
+}
+.element{
+    color: black;
+}
 .figureH1 img{
     clip-path: polygon(0 34%, 100% 9%, 100% 93%, 0 79%);
 }
@@ -75,10 +85,13 @@ button:hover{
 .linhaResultado{
     margin-top: 20px;
 }
-
+.quadrado{
+    background-color: transparent;
+}
 p{
     margin-left,
     margin-right: 10px;
+    background-color: transparent;
 }
 
 .atividadesFisica {
