@@ -10,7 +10,7 @@ Assim, é comum os médicos, enfermeiros e nutricionistas avaliem o IMC da pesso
 O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
 
 ## Link
-### (Obs.: em desenvolvimento)
+### *(Obs.: em desenvolvimento)*
 https://joaoacastro.github.io/calculo_IMC/
 
 ## Liguagens Utilizadas Para Desenvolver Este Projeto
