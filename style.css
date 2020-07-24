@@ -13,18 +13,22 @@ body{
 @media (max-width : 414px) {
     body {
         font-size: 18px;
+        height: 200px;
     }
-    #margem-body{
-        width: 95vw;
+    fieldset{
+        height: 100px;
+        width: auto;
     }
-    .figureH1 img{
-        width: 80vw;
-        height: auto;
-        
+    .figureH1{
+        width: 200px;
+        height: 150px;
     }
     .atividadesFisica{
         width: 10vw;
         height: auto;
+    }
+    .element{
+        margin-top: 80px;
     }
 }
 @media (max-width: 320px){
