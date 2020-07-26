@@ -22,18 +22,22 @@ function calculateIMC(){
   else
     if(imc>=18.60&&imc<=24.90){
       calculo=" Peso Ideal, Parabéns, mas nada de exagerar."
+      document.getElementById("margem-body").style.height = "160vh";
     }
   else
     if(imc>=25.00&&imc<=29.90){
       calculo=" Atenção, você está levemente acima do peso, subir uns degraus de escada cairiam bem agora."
+      document.getElementById("margem-body").style.height = "160vh";
     }
   else
     if(imc>=30.00&&imc<=34.90){
       calculo=" Cuidado, você já está no nível obeso, para ser mais exato Obesidade Nível I, ou seja, já passou da hora de ingerir menos carboidratos."
+      document.getElementById("margem-body").style.height = "160vh";
     }
   else
     if(imc>=35.00&&imc<=39.90){
       calculo=" CUIDADOOO, você está no nível obeso, para ser mais exato Obesidade Nível II, ou seja, a coisa é mais severa agora, procure um nutricionista e uns exercícios também ajudariam."
+      document.getElementById("margem-body").style.height = "160vh";
     }
   else
     if(imc>=40.00){
