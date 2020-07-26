@@ -17,7 +17,7 @@ function calculateIMC(){
   
     if(imc<=18.50){
       calculo=" Abaixo do peso. Um fast food agora cairia bem."
-      document.getElementById("margem-body").style.height = "150vh";
+      document.getElementById("margem-body").style.height = "160vh";
     }
   else
     if(imc>=18.60&&imc<=24.90){
@@ -38,7 +38,7 @@ function calculateIMC(){
   else
     if(imc>=40.00){
       calculo=" Se você chegou nesse nível, olha meus parabéns, mas a coisa é mais séria do que pensa, com IMC acima de 40, o nível da sua obesidade é caracterizada como mórbida, ou seja, obesidade nível III, o máximo da tabela de IMC, procure com URGÊNCIA um nutricionista."
-      document.getElementById("margem-body").style.height = "155vh";
+      document.getElementById("margem-body").style.height = "165vh";
     }
   
   paragraphResult.innerHTML=`Com base no seu peso e na sua altura mencionados acima, seu IMC é ${imc.toFixed(2).replace(".",",")}.<br> ${calculo}. <br> Com base na sua altura e no seu IMC o seu peso ideal é aproximadamente ${pesoIdeal.toFixed(2).replace(".",",")}Kg.`;
