@@ -81,6 +81,7 @@ button{
     border-radius: 20%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    margin: 13px;
 }
 
 button:hover{
@@ -117,7 +118,7 @@ button:hover{
 }
 
 #margem-body{
-    height: 150vh;
+    height: 140vh;
     font-family: monospace;
 }
 
@@ -125,10 +126,14 @@ button:hover{
     background-image: url(src/moderada.jpg);
     background-size: 80px;
 }
-
+.obs,
+.paragraphResult{
+    margin-left: 10px;
+}
 p{
     margin-left,
     margin-right: 10px;
+    margin-bottom: 0;
     background-color: transparent;
 }
 
