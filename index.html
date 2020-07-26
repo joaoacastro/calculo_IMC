@@ -8,6 +8,8 @@
     <title>.:IMC-Índice de Massa Corporal:.</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="link/taglink/ico/right.png" rel="shortcut icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
       <fieldset id="margem-body">
@@ -16,28 +18,32 @@
         </legend>
         
         <div class="container">
-          
           <figure class="figureH1">
             <img src="src/conteudoonline_-_marketing-digital-e-empresas-da-area-de-saude_v2.png" alt="coração">
           </figure>
-          
-          <div class="element">
-            <div class="box">
-              <p class="significado"> 
+        </div>
+        
+        <div class="element">
+
+              <p class="box"> 
                 <br>
                 IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
                 <br>
                 <br>
-                O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.
+                <br>
+                Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
                 <br>
                 <br>
                 Quer descobrir se você está abaixo, acima ou no peso ideal?
                 <br>
-                Insira dua altura e seu peso abaixo e nós calcularemos para você.
-              </p>
+                Insira sua altura, seu peso e seu nível de atividade física abaixo e nós calcularemos para você.
+              </p><!--box-->
               <br>
-            </div><!--box-->
-              <div class="quadrado">
+              
+              <div class="inputAtividade">
+              
+                <div class="quadrado">
                 
                 <label for="inputPeso"><em>Insira seu peso:</em></label>
                 <br>
@@ -50,27 +56,29 @@
               </div>
 
               <br>
-              <p>
-                Ok, agora me diga, selecionando abaixo, qual o seu nível de atividade física? *
-              </p>
-              
-              <ul class="atividadesFisica">
-                <li class="atividadeFisica sedentaria">
-                  <input type="radio" name="radio" id="sedentaria">
-                  <label for="sedentaria">Sedentária</label>
-                </li>
+              <div class="atividade">
+                <p>
+                  Ok, agora me diga, selecionando abaixo, qual o seu nível de atividade física? *
+                </p>
                 
-                <li class="atividadeFisica moderada">
-                  <input type="radio" name="radio" id="moderada" checked>
-                  <label for="moderada">Moderada</label>
-                </li>
-                
-                <li class="atividadeFisica intensa">
-                  <input type="radio" name="radio" id="intensa">
-                  <label for="intensa">Intensa</label>
-                </li>
-              </ul>
-
+                <ul class="atividadesFisica">
+                  <li class="atividadeFisica sedentaria">
+                    <input type="radio" name="radio" id="sedentaria">
+                    <label for="sedentaria">Sedentária</label>
+                  </li>
+                  
+                  <li class="atividadeFisica moderada">
+                    <input type="radio" name="radio" id="moderada" checked>
+                    <label for="moderada">Moderada</label>
+                  </li>
+                  
+                  <li class="atividadeFisica intensa">
+                    <input type="radio" name="radio" id="intensa">
+                    <label for="intensa">Intensa</label>
+                  </li>
+                </ul>
+              </div> <!--atividade-->
+            </div><!--inputAtividade-->
               <br>
               <br>
               <br>
@@ -98,7 +106,7 @@
             
             <script src="script.js"></script>
           </div> <!--element-->
-        </div> <!--container-->
+        
       </fieldset>
   </body>
 </html>
